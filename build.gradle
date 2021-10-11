@@ -10,7 +10,7 @@ tasks.withType(JavaCompile) {
 description = "crypto-currency exchange"
 
 allprojects {
-    group 'io.runon.crypto.currency'
+    group 'io.runon.crypto.cryptocurrency'
     repositories
             {
                 mavenCentral()
