@@ -1,5 +1,5 @@
 # cryptocurrency-exchange
-암호 화폐 거래소 maven central 릴리즈 용
+암호 화폐 거래소 컴파일용 프로젝트
 
 # communication
 ### blog, homepage
