@@ -1,0 +1,8 @@
+rootProject.name = 'cyptocurrency-exchange'
+
+include 'modules:binance-java-api'
+findProject(':modules:binance-java-api')?.name = 'binance-java-api'
+include 'modules:huobi-java'
+findProject(':modules:huobi-java')?.name = 'huobi-java'
+include 'modules:binance-futures-java'
+findProject(':modules:binance-futures-java')?.name = 'binance-futures-java'
