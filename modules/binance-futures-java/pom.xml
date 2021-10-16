@@ -20,6 +20,15 @@
         </license>
     </licenses>
 
+    <developers>
+        <developer>
+            <name>macle</name>
+            <email>ysys86a@gmail.com</email>
+            <id>macle86</id>
+            <organization>seomse</organization>
+        </developer>
+    </developers>
+
     <scm>
         <url>https://github.com/runonio/cryptocurrency-exchange</url>
     </scm>
