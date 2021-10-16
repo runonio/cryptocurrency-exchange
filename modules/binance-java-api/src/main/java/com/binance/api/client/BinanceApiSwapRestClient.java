@@ -12,25 +12,25 @@ public interface BinanceApiSwapRestClient {
     /**
      * Get metadata about all swap pools.
      *
-     * @return
+     * @return a
      */
     List<Pool> listAllSwapPools();
 
     /**
      * Get liquidity information and user share of a pool.
      *
-     * @param poolId
-     * @return
+     * @param poolId a
+     * @return a
      */
     Liquidity getPoolLiquidityInfo(String poolId);
 
     /**
      * Add liquidity to a pool.
      *
-     * @param poolId
-     * @param asset
-     * @param quantity
-     * @return
+     * @param poolId a
+     * @param asset a
+     * @param quantity a
+     * @return a
      */
     LiquidityOperationRecord addLiquidity(String poolId,
                                           String asset,
@@ -39,20 +39,20 @@ public interface BinanceApiSwapRestClient {
     /**
      * Remove liquidity from a pool, type include SINGLE and COMBINATION, asset is mandatory for single asset removal
      *
-     * @param poolId
-     * @param type
-     * @param asset
-     * @param shareAmount
-     * @return
+     * @param poolId a
+     * @param type a
+     * @param asset a
+     * @param shareAmount a
+     * @return a
      */
     LiquidityOperationRecord removeLiquidity(String poolId, SwapRemoveType type, List<String> asset, String shareAmount);
 
     /**
      * Get liquidity operation (add/remove) records of a pool
      *
-     * @param poolId
-     * @param limit
-     * @return
+     * @param poolId a
+     * @param limit a
+     * @return a
      */
     List<LiquidityOperationRecord> getPoolLiquidityOperationRecords(
             String poolId,
@@ -61,18 +61,18 @@ public interface BinanceApiSwapRestClient {
     /**
      * Get liquidity operation (add/remove) record.
      *
-     * @param operationId
-     * @return
+     * @param operationId a
+     * @return a
      */
     LiquidityOperationRecord getLiquidityOperationRecord(String operationId);
 
     /**
      * Request a quote for swap quote asset (selling asset) for base asset (buying asset), essentially price/exchange rates.
      *
-     * @param quoteAsset
-     * @param baseAsset
-     * @param quoteQty
-     * @return
+     * @param quoteAsset a
+     * @param baseAsset a
+     * @param quoteQty a
+     * @return a
      */
     SwapQuote requestQuote(String quoteAsset,
                            String baseAsset,
@@ -81,10 +81,10 @@ public interface BinanceApiSwapRestClient {
     /**
      * Swap quoteAsset for baseAsset
      *
-     * @param quoteAsset
-     * @param baseAsset
-     * @param quoteQty
-     * @return
+     * @param quoteAsset a
+     * @param baseAsset a
+     * @param quoteQty a
+     * @return a
      */
     SwapRecord swap(String quoteAsset,
                     String baseAsset,

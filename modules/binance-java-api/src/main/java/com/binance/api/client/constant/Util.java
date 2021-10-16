@@ -22,7 +22,9 @@ public final class Util {
     }
 
     /**
-     * Check if the ticker is fiat currency.
+     *  Check if the ticker is fiat currency.
+     * @param symbol s
+     * @return 1
      */
     public static boolean isFiatCurrency(String symbol) {
         for (String fiat : FIAT_CURRENCY) {

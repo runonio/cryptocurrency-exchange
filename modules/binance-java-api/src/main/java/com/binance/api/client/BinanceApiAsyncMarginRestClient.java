@@ -96,6 +96,12 @@ public interface BinanceApiAsyncMarginRestClient {
    * @param amount amount to repay
    * @return transaction id
    */
+  /**
+   *
+   * @param asset
+   * @param amount
+   * @param callback
+   */
   void borrow(String asset, String amount, BinanceApiCallback<MarginTransaction> callback);
 
   /**
