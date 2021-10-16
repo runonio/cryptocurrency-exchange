@@ -15,6 +15,12 @@ implementation 'io.runon.cryptocurrency:exchange-binance-futures:1.0.9'
 - etc
   - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance-futures/1.0.9
 
+## houbi
+implementation 'io.runon.cryptocurrency:exchange-houbi:2.0.3'
+- etc
+  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-houbi/2.0.3
+
+
 # communication
 ### blog, homepage
 - [www.seomse.com](https://www.seomse.com/)
