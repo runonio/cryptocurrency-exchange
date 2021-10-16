@@ -23,6 +23,16 @@
   </licenses>
 
 
+  <developers>
+    <developer>
+      <name>macle</name>
+      <email>ysys86a@gmail.com</email>
+      <id>macle86</id>
+      <organization>seomse</organization>
+    </developer>
+  </developers>
+
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
