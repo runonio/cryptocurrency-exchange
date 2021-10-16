@@ -7,14 +7,25 @@
   <groupId>io.runon.cryptocurrency</groupId>
   <artifactId>binance-api-client</artifactId>
   <version>1.0.1</version>
+  <packaging>jar</packaging>
+
+
+  <name>binance-api-client</name>
+  <description>binance-api-client</description>
+  <url>https://github.com/runonio/cyptocurrency</url>
+
+
   <licenses>
     <license>
       <name>The MIT License</name>
       <url>https://opensource.org/licenses/MIT</url>
+      <distribution>repo</distribution>
     </license>
   </licenses>
 
+
   <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
     <com.squareup.retrofit2.version>2.4.0</com.squareup.retrofit2.version>
   </properties>
@@ -26,11 +37,11 @@
   <distributionManagement>
     <snapshotRepository>
       <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
     <repository>
       <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
     </repository>
 
   </distributionManagement>
@@ -70,6 +81,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
@@ -78,12 +90,17 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
-        <version>2.3.2</version>
+        <version>3.2.0</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-deploy-plugin</artifactId>
+        <version>3.0.0-M1</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-source-plugin</artifactId>
-        <version>2.3</version>
+        <version>3.2.1</version>
         <executions>
           <execution>
             <id>attach-sources</id>
@@ -94,25 +111,27 @@
           </execution>
         </executions>
       </plugin>
-      <!--            <plugin>-->
-      <!--                <groupId>org.apache.maven.plugins</groupId>-->
-      <!--                <artifactId>maven-javadoc-plugin</artifactId>-->
-      <!--                <version>2.9.1</version>-->
-      <!--                <executions>-->
-      <!--                    <execution>-->
-      <!--                        <id>attach-javadocs</id>-->
-      <!--                        <phase>verify</phase>-->
-      <!--                        <goals>-->
-      <!--                            <goal>jar</goal>-->
-      <!--                        </goals>-->
-      <!--                    </execution>-->
-      <!--                </executions>-->
-      <!--            </plugin>-->
+
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.3.1</version>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-gpg-plugin</artifactId>
-        <version>1.4</version>
+        <version>3.0.1</version>
         <executions>
           <execution>
             <id>sign-artifacts</id>
@@ -127,5 +146,4 @@
 
     </plugins>
   </build>
-
 </project>
