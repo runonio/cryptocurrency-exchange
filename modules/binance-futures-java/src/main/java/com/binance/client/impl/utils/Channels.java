@@ -9,6 +9,11 @@ public abstract class Channels {
     public static final String OP_SUB = "sub";
     public static final String OP_REQ = "req";
 
+    /**
+     *
+     * @param symbol aa
+     * @return a
+     */
     public static String aggregateTradeChannel(String symbol) {
         JSONObject json = new JSONObject();
         JSONArray params = new JSONArray();
@@ -18,7 +23,12 @@ public abstract class Channels {
         json.put("method", "SUBSCRIBE");
         return json.toJSONString();
     }
-  
+
+    /**
+     *
+     * @param symbol aa
+     * @return a
+     */
     public static String markPriceChannel(String symbol) {
         JSONObject json = new JSONObject();
         JSONArray params = new JSONArray();
@@ -28,7 +38,13 @@ public abstract class Channels {
         json.put("method", "SUBSCRIBE");
         return json.toJSONString();
     }
-  
+
+    /**
+     *
+     * @param symbol a
+     * @param interval a
+     * @return a
+     */
     public static String candlestickChannel(String symbol, CandlestickInterval interval) {
         JSONObject json = new JSONObject();
         JSONArray params = new JSONArray();
@@ -38,7 +54,12 @@ public abstract class Channels {
         json.put("method", "SUBSCRIBE");
         return json.toJSONString();
     }
-  
+
+    /**
+     *
+     * @param symbol a
+     * @return a
+     */
     public static String miniTickerChannel(String symbol) {
         JSONObject json = new JSONObject();
         JSONArray params = new JSONArray();
@@ -48,7 +69,11 @@ public abstract class Channels {
         json.put("method", "SUBSCRIBE");
         return json.toJSONString();
     }
-  
+
+    /**
+     *
+     * @return a
+     */
     public static String miniTickerChannel() {
         JSONObject json = new JSONObject();
         JSONArray params = new JSONArray();
@@ -58,7 +83,12 @@ public abstract class Channels {
         json.put("method", "SUBSCRIBE");
         return json.toJSONString();
     }
-  
+
+    /**
+     *
+     * @param symbol a
+     * @return a
+     */
     public static String tickerChannel(String symbol) {
         JSONObject json = new JSONObject();
         JSONArray params = new JSONArray();
@@ -68,7 +98,11 @@ public abstract class Channels {
         json.put("method", "SUBSCRIBE");
         return json.toJSONString();
     }
-  
+
+    /**
+     *
+     * @return a
+     */
     public static String tickerChannel() {
         JSONObject json = new JSONObject();
         JSONArray params = new JSONArray();

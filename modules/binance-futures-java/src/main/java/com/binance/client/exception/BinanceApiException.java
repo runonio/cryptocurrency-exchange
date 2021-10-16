@@ -2,9 +2,7 @@ package com.binance.client.exception;
 
 public class BinanceApiException extends RuntimeException {
 
-    /**
-     *
-     */
+
     private static final long serialVersionUID = 4360108982268949009L;
     public static final String RUNTIME_ERROR = "RuntimeError";
     public static final String INPUT_ERROR = "InputError";
@@ -15,16 +13,31 @@ public class BinanceApiException extends RuntimeException {
     public static final String EXEC_ERROR = "ExecuteError";
     private final String errCode;
 
+    /**
+     *
+     * @param errType a
+     * @param errMsg a
+     */
     public BinanceApiException(String errType, String errMsg) {
         super(errMsg);
         this.errCode = errType;
     }
 
+    /**
+     *
+     * @param errType a
+     * @param errMsg a
+     * @param e a
+     */
     public BinanceApiException(String errType, String errMsg, Throwable e) {
         super(errMsg, e);
         this.errCode = errType;
     }
 
+    /**
+     *
+     * @return a
+     */
     public String getErrType() {
         return this.errCode;
     }

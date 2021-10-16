@@ -4,6 +4,10 @@ class ChannelParser {
 
   private String symbol = "";
 
+  /**
+   *
+   * @param input a
+   */
   ChannelParser(String input) {
     String[] fields = input.split("\\.");
     if (fields.length >= 2) {
