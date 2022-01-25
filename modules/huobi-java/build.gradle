@@ -17,7 +17,7 @@ dependencies {
     implementation group: 'com.warrenstrange', name: 'googleauth', version: '1.2.0'
     compileOnly group: 'org.projectlombok', name: 'lombok', version: '1.18.20'
 
-    implementation 'com.seomse.commons:seomse-commons:1.2.5'
+    implementation 'com.seomse.commons:commons:1.2.6'
 
 
     testImplementation group: 'org.powermock', name: 'powermock-api-mockito', version: '1.7.4'
