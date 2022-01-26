@@ -16,9 +16,9 @@ implementation 'io.runon.cryptocurrency:exchange-binance-futures:1.0.9'
   - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance-futures/1.0.9
 
 ## houbi
-implementation 'io.runon.cryptocurrency:exchange-houbi:2.0.3'
+implementation 'io.runon.cryptocurrency:exchange-houbi:2.0.4'
 - etc
-  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-houbi/2.0.3
+  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-houbi/2.0.4
 
 
 # communication
