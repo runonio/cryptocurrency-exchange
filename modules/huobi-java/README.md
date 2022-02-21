@@ -3,9 +3,13 @@
 * mavenctrl 에 올라가 있지 않아서 직접 사욯다가 레파지토리를 바꾸면 제외 하는 형식으로 진행하려고 합니다.
 * https://github.com/HuobiRDCenter/huobi_Java
 
-
-
 [![Build Status](https://travis-ci.com/HuobiRDCenter/huobi_Java.svg?branch=master)](https://travis-ci.com/HuobiRDCenter/huobi_Java)
+
+# gradle
+implementation 'io.runon.cryptocurrency:exchange-houbi:2.0.4'
+- etc
+  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-houbi/2.0.4
+
 
 # Huobi Java SDK v2
 

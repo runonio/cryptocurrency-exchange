@@ -3,6 +3,11 @@
 * mavenctrl 에 올라가 있지 않아서 직접 사욯다가 레파지토리를 바꾸면 제외 하는 형식으로 진행하려고 합니다.
 * https://github.com/binance-exchange/binance-java-api
 
+# gradle
+implementation 'io.runon.cryptocurrency:exchange-binance:1.0.1'
+- etc
+    - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance/1.0.1
+
 # Java Binance API
 
 binance-java-api is a lightweight Java library for interacting with the [Binance API](https://www.binance.com/restapipub.html), providing complete API coverage, and supporting synchronous and asynchronous requests, as well as event streaming using WebSockets.
