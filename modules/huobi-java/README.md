@@ -6,9 +6,9 @@
 [![Build Status](https://travis-ci.com/HuobiRDCenter/huobi_Java.svg?branch=master)](https://travis-ci.com/HuobiRDCenter/huobi_Java)
 
 # gradle
-implementation 'io.runon.cryptocurrency:exchange-houbi:2.0.4'
+implementation 'io.runon.cryptocurrency:exchange-houbi:2.0.41'
 - etc
-  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-houbi/2.0.4
+  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-houbi/2.0.41
 
 
 # Huobi Java SDK v2

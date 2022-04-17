@@ -4,9 +4,9 @@
 * https://github.com/Binance-docs/Binance_Futures_Java
 
 # gradle
-implementation 'io.runon.cryptocurrency:exchange-binance-futures:1.0.91'
+implementation 'io.runon.cryptocurrency:exchange-binance-futures:1.0.92'
 - etc
-  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance-futures/1.0.91
+  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance-futures/1.0.92
 
 # Binance Java SDK (beta version)
 

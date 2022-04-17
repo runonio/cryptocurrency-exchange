@@ -6,7 +6,7 @@
 
   <groupId>io.runon.cryptocurrency</groupId>
   <artifactId>exchange-binance</artifactId>
-  <version>1.0.1</version>
+  <version>1.0.11</version>
   <packaging>jar</packaging>
 
 
@@ -36,7 +36,6 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>1.8</java.version>
-    <com.squareup.retrofit2.version>2.4.0</com.squareup.retrofit2.version>
   </properties>
 
   <scm>
@@ -59,17 +58,17 @@
     <dependency>
       <groupId>com.squareup.retrofit2</groupId>
       <artifactId>retrofit</artifactId>
-      <version>${com.squareup.retrofit2.version}</version>
+      <version>2.9.0</version>
     </dependency>
     <dependency>
       <groupId>com.squareup.retrofit2</groupId>
       <artifactId>converter-jackson</artifactId>
-      <version>${com.squareup.retrofit2.version}</version>
+      <version>2.9.0</version>
     </dependency>
     <dependency>
       <groupId>commons-codec</groupId>
       <artifactId>commons-codec</artifactId>
-      <version>1.10</version>
+      <version>1.15</version>
     </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
@@ -79,7 +78,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

@@ -4,9 +4,9 @@
 * https://github.com/binance-exchange/binance-java-api
 
 # gradle
-implementation 'io.runon.cryptocurrency:exchange-binance:1.0.1'
+implementation 'io.runon.cryptocurrency:exchange-binance:1.0.11'
 - etc
-    - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance/1.0.1
+    - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance/1.0.11
 
 # Java Binance API
 
