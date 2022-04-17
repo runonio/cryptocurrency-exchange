@@ -6,19 +6,19 @@
 
 # gradle
 ## binance
-implementation 'io.runon.cryptocurrency:exchange-binance:1.0.1'
+implementation 'io.runon.cryptocurrency:exchange-binance:1.0.11'
 - etc
-  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance/1.0.1
+  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance/1.0.11
 
 ## binance-futures
-implementation 'io.runon.cryptocurrency:exchange-binance-futures:1.0.9'
+implementation 'io.runon.cryptocurrency:exchange-binance-futures:1.0.92'
 - etc
-  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance-futures/1.0.9
+  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance-futures/1.0.92
 
 ## houbi
-implementation 'io.runon.cryptocurrency:exchange-houbi:2.0.4'
+implementation 'io.runon.cryptocurrency:exchange-houbi:2.0.41'
 - etc
-  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-houbi/2.0.4
+  - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-houbi/2.0.41
 
 
 # communication
