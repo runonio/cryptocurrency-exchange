@@ -10,8 +10,12 @@ implementation 'io.runon.cryptocurrency:exchange-binance:1.0.11'
 - etc
   - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance/1.0.11
 
+  
 ## binance-futures
-implementation 'io.runon.cryptocurrency:exchange-binance-futures:1.0.92'
+- 사용금지
+- https://github.com/runonio/cryptocurrency/tree/main/modules/cryptocurrency-exchanges 이용
+
+- implementation 'io.runon.cryptocurrency:exchange-binance-futures:1.0.92'
 - etc
   - https://mvnrepository.com/artifact/io.runon.cryptocurrency/exchange-binance-futures/1.0.92
 
